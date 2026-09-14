@@ -1,0 +1,57 @@
+# MIC-CC — .gitignore
+
+# ── Python ─────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+ENV/
+
+# ── Jupyter ────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Data files (raw and processed — too large for GitHub) ──────────────
+data/raw/comtrade/*.csv
+data/raw/comtrade/*.xlsx
+data/raw/comtrade/*.json
+data/raw/logistics/**/*.xlsx
+data/raw/logistics/**/*.csv
+data/raw/logistics/**/*.pdf
+data/processed/**/*.csv
+data/processed/**/*.xlsx
+
+# ── Outputs (generated — not versioned) ────────────────────────────────
+outputs/figures/*.png
+outputs/figures/*.svg
+outputs/tables/*.csv
+outputs/tables/*.xlsx
+
+# ── Working paper drafts (Google Docs workflow — not versioned here) ───
+docs/working_paper/*.docx
+docs/working_paper/*.pdf
+
+# ── OS and editor ─────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# ── Google Colab / Drive ───────────────────────────────────────────────
+*.gdrive
+drive/
+
+# ── Sensitive / credentials ────────────────────────────────────────────
+.env
+*.key
+credentials.json
+token.json
