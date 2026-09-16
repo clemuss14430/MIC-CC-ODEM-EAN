@@ -66,13 +66,13 @@ MIC-CC/
 
 | Phase | Period | Description | Status | Notebook |
 |-------|--------|-------------|--------|----------|
-| **F1** | May 1–15 | Data collection: UN Comtrade API + master dataset construction | ✅ Complete | `01_data_collection.ipynb` |
-| **F2** | May 16–31 | Commercial analysis: VCR Balassa + HHI + Top 10 selection | ✅ Complete | `02_commercial_analysis.ipynb` |
-| **F3** | Jun 1–20 | Logistics model: freight rates, port costs, domestic transport | 🔄 In Progress | `03_logistics_model.ipynb` |
-| **F4** | Jun 21–Jul 10 | Financial model: COP/CAD time series, VaR, scenario simulation | ⏳ Pending | `04_financial_model.ipynb` |
-| **F5** | Jul 11–25 | Power BI dashboard: 3 modules (Trade · Logistics · Finance) | ⏳ Pending | — |
-| **F6** | Jul 26–Aug 15 | Working Paper: full draft + ODEM director review | ⏳ Pending | — |
-| **F7** | Aug 16–31 | Publication: GitHub release + ODEM + Mitacs executive summary | ⏳ Pending | — |
+| **F1** | May 25–30 | Data collection: UN Comtrade API + master dataset construction | ✅ Complete | `01_data_collection.ipynb` |
+| **F2** | Jun 16–31 | Commercial analysis: VCR Balassa + HHI + Top 10 selection | ✅ Complete | `02_commercial_analysis.ipynb` |
+| **F3** | Jul 1–20 | Logistics model: freight rates, port costs, domestic transport | 🔄 In Progress | `03_logistics_model.ipynb` |
+| **F4** | Jul 21–Aug 10 | Financial model: COP/CAD time series, VaR, scenario simulation | 🔄 In Progress | `04_financial_model.ipynb` |
+| **F5** | Aug 11–25 | Power BI dashboard: 3 modules (Trade · Logistics · Finance) | ⏳ Pending | — |
+| **F6** | Aug 26–Sep 15 | Working Paper: full draft + ODEM director review | ⏳ Pending | — |
+| **F7** | Sep 16–31 | Publication: GitHub release + ODEM + Mitacs executive summary | ⏳ Pending | — |
 
 ### Phase 3 Sub-task Status
 
