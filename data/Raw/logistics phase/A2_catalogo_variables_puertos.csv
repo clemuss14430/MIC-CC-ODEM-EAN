@@ -1,0 +1,15 @@
+puerto,variable,descripcion,fuente_sugerida,prioridad
+CTG,handling_exportacion_usd_teu,Tarifa de manejo de exportación en terminal,SPRC (sprc.com.co/tarifas) o Contecar (contecar.com.co),ALTA
+CTG,tiempo_handling_origen_horas,Tiempo promedio de handling/gate-in a cargue en buque,SPRC reportes operacionales o Doing Business Colombia,MEDIA
+MTL,handling_importacion_cad_teu,Tarifa de descargue/manejo en terminal de destino,Port of Montreal Annual Report 2023-2024 · portmontreal.com/en/publications,ALTA
+MTL,almacenaje_libre_dias,Días de almacenaje gratuito incluidos antes de cobro adicional,Montreal Gateway Terminals · mgtmltd.com,ALTA
+MTL,almacenaje_exceso_cad_teu_dia,Tarifa de almacenaje por TEU/día después del período libre,Montreal Gateway Terminals · mgtmltd.com,ALTA
+MTL,capacidad_anual_teu,Capacidad instalada anual del puerto en TEUs,Port of Montreal Annual Report 2024 → sección estadísticas,MEDIA
+MTL,throughput_real_teu,TEUs movilizados realmente en 2023 o 2024,Port of Montreal Annual Report → Traffic Statistics,MEDIA
+MTL,tiempo_handling_destino_horas,Tiempo promedio de descargue a gate-out,Port of Montreal Annual Report → Operations,MEDIA
+YVR,handling_importacion_cad_teu,Tarifa de descargue/manejo en terminal de destino,VFPA Annual Report 2023-2024 · portvancouver.com/about/publications,ALTA
+YVR,almacenaje_libre_dias,Días de almacenaje gratuito,GCT Deltaport · gctdeltaport.com o GCT Vanterm,ALTA
+YVR,almacenaje_exceso_cad_teu_dia,Tarifa de almacenaje por TEU/día fuera del período libre,GCT Deltaport · gctdeltaport.com,ALTA
+YVR,capacidad_anual_teu,Capacidad instalada anual del puerto en TEUs,VFPA Annual Report → Port Statistics,MEDIA
+YVR,throughput_real_teu,TEUs movilizados realmente en 2023 o 2024,VFPA Annual Report → Traffic Statistics,MEDIA
+YVR,tiempo_handling_destino_horas,Tiempo promedio de descargue a gate-out,VFPA Annual Report → Operations,MEDIA
