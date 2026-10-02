@@ -1,0 +1,9 @@
+ruta,naviera,tarifa_usd_teu,tipo_contenedor,fecha_cotizacion,fuente,url_evidencia,observaciones,ruta_codigo,direccion,tarifa_usd_teu_normalizada
+Cartagena CO - Montreal CA ,CMA CGM,1018,20pies,2026-06-24,SeaRates,https://www.searates.com/es/logistics-explorer/?id=60385483,,CTG-MTL,exportacion,1018.0
+Cartagena CO - Montreal CA ,CMA CGM,1036,20pies,2026-06-24,SeaRates,https://www.searates.com/es/logistics-explorer/?id=60385485,,CTG-MTL,exportacion,1036.0
+Cartagena CO - Montreal CA ,CMA CGM,1083,20pies,2026-06-24,SeaRates,https://www.searates.com/es/logistics-explorer/?id=60385486,,CTG-MTL,exportacion,1083.0
+Cartagena CO - Vancouver CA ,Hapag-Lloyd,5281,20pies,2026-06-24,SeaRates,https://www.searates.com/es/logistics-explorer/?id=60384516,,CTG-YVR,exportacion,5281.0
+Cartagena CO - Montreal CA ,CMA CGM,1286,40pies,2026-06-24,SeaRates,https://www.searates.com/es/logistics-explorer/?id=60385545,,CTG-MTL,exportacion,756.47
+Cartagena CO - Montreal CA ,CMA CGM,1369,40pies,2026-06-24,SeaRates,https://www.searates.com/es/logistics-explorer/?id=60385549,,CTG-MTL,exportacion,805.29
+Cartagena CO - Montreal CA ,CMA CGM,1393,40pies,2026-06-24,SeaRates,https://www.searates.com/es/logistics-explorer/?id=60385548,,CTG-MTL,exportacion,819.41
+Cartagena CO - Vancouver CA ,Hapag-Lloyd,4610,40pies,2026-06-24,SeaRates,https://www.searates.com/es/logistics-explorer/?id=60385224,,CTG-YVR,exportacion,2711.76
