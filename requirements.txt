@@ -1,25 +1,26 @@
-# MIC-CC — Monitor de Inteligencia Comercial Colombia–Canadá
-# Python dependencies
-# Install with: pip install -r requirements.txt
+# ─── MONITOR DE INTELIGENCIA COMERCIAL COLOMBIA–CANADÁ ───────────────
+# requirements.txt — All phases (1–4)
+# Python 3.10+
 
-# ── Core data manipulation ─────────────────────────────────────────────
-pandas>=2.0.0
-numpy>=1.24.0
-openpyxl>=3.1.0          # Excel read/write (.xlsx)
-xlrd>=2.0.1              # Legacy Excel read (.xls)
+# ── Data handling ──────────────────────────────────────────────────────
+pandas==2.2.2
+numpy==1.26.4
+openpyxl==3.1.2          # Excel I/O
+xlrd==2.0.1               # Legacy .xls support
 
-# ── HTTP requests and APIs ─────────────────────────────────────────────
-requests>=2.31.0          # UN Comtrade, BanRep, Bank of Canada APIs
+# ── API & web ──────────────────────────────────────────────────────────
+requests==2.31.0          # REST API calls (BanRep, Bank of Canada, Comtrade)
+urllib3==2.2.1
 
 # ── Statistical modeling (Phase 4) ────────────────────────────────────
-statsmodels>=0.14.0       # Time series, VAR model
-scipy>=1.11.0             # Statistical functions
+statsmodels==0.14.2       # Time series, VAR
+scipy==1.13.0             # Statistical distributions for VaR
 
-# ── Visualization ─────────────────────────────────────────────────────
-matplotlib>=3.7.0
-seaborn>=0.12.0
+# ── Visualization ──────────────────────────────────────────────────────
+matplotlib==3.9.0
+seaborn==0.13.2
 
 # ── Jupyter environment ────────────────────────────────────────────────
-jupyter>=1.0.0
-nbformat>=5.9.0
-ipykernel>=6.25.0
+jupyter==1.0.0
+ipykernel==6.29.4
+nbformat==5.10.4
